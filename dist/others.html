@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/output.css" rel="stylesheet">
+    <!-- or use cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="flex flex-col w-screen h-screen">
+    <div class="flex items-center justify-center h-screen loading-container">
+        <img src="../public/loading.gif" alt="" class="w-full">
+    </div>
+    <div class="body">
+        <!-- THIS IS THE NAVBAR -->
+        <div>
+            <div class="flex justify-between h-14">
+    
+                <div class="flex items-center justify-center ">
+                    <div class="border-r border-gray-300 md:px-[1.1rem] px-[0.7rem] ">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-5 h-5 text-newgreen">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="px-[1.1rem] cursor-pointer flex">
+                            <div class="flex">
+                                <input type="text" id="searchBar" placeholder="search..."
+                                    class="hidden p-1 transition duration-150 border rounded-md border-graccent-sky-500">
+    
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5 " id="search">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </div>
+    
+    
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+                <div class="flex items-center justify-center py-7">
+                    <div class="px-[1.1rem]">
+                        <div class=" px-[1.1rem] border-x border-r-gray-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                            </svg>
+    
+                        </div>
+                    </div>
+    
+                    <img src="../public/hello.jpg" alt="" class="w-10 h-10 rounded-[100%]">
+                    <span class="hidden mx-4 font-bold md:block font-poppins">allev vinicius</span>
+                </div>
+            </div>
+    
+            <!-- END OF NAVBAR -->
+    
+        </div>
+        <!-- STARTING OF SIDEBAR -->
+        <hr>
+        <div class="flex h-screen ">
+            <div class="flex flex-col items-center justify-center w-10 h-full pl-2 sm:w-14">
+                <ul class="">
+                    <div class="flex items-center justify-center w-[2.5rem] h-10 md:h-12 mb-12 md:w-12 active sidebar">
+                        <li class="">
+                            <a href="" class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-6 h-6 text-newgreen">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                </svg>
+    
+                            </a>
+                        </li>
+    
+                    </div>
+    
+                    <div class="flex items-center justify-center w-12 h-12 mb-12 ">
+                        <li class="">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+    
+                            </a>
+                        </li>
+    
+                    </div>
+    
+                    <div class="flex items-center justify-center w-12 h-12 mb-12 ">
+                        <li class="">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.157 2.148.279 3.238.364.466.037.893.281 1.153.671L12 21l2.652-3.978c.26-.39.687-.634 1.153-.67 1.09-.086 2.17-.208 3.238-.365 1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                                </svg>
+    
+                            </a>
+                        </li>
+    
+                    </div>
+    
+                    <div class="flex items-center justify-center w-12 h-12 mb-12 ">
+                        <li class="">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                                </svg>
+    
+                            </a>
+                        </li>
+    
+                    </div>
+    
+                    <div class="flex items-center justify-center w-12 h-12 mb-12 ">
+                        <li class="">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+                                </svg>
+    
+                            </a>
+                        </li>
+    
+                    </div>
+    
+            </div>
+    
+            <!-- END OF SIDEBAR WITH 5 SVGS -->
+            <!-- STARTING OF THE SUBNAVBAR -->
+            <div class="w-full overflow-auto bg-gray-100 ">
+    
+                <div class="justify-between mx-5 my-10 md:flex md:mx-20">
+                    <div class="flex">
+                        <h1 class="text-3xl font-bold">
+                            Dashboard
+                        </h1>
+                    </div>
+                    <div class="">
+                        <button class="p-2 mt-1 text-white rounded-md sm:mt-0 m bg-newgreen hover:bg-green-500">
+                            <span class="flex">
+                                <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 18 18">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M9 1v16M1 9h16" />
+                                </svg>
+                                Add person</span></button>
+                    </div>
+                </div>
+    
+                <div class="navlist">
+                    <ul class="flex ml-5 md:ml-20 text-stone-300">
+                        <li class="pb-3 mr-5 duration-100 ease-in cursor-pointer hover:text-black">
+                            <a href="home.html" id="employment" class="nav-links">employment</a>
+                        </li>
+                        <li class="pb-3 mr-5 duration-100 ease-in cursor-pointer hover:text-black">
+                            <a href="management.html" id="management " class="nav-links">management</a>
+                        </li>
+                        <li class="pb-3 duration-100 ease-linear cursor-pointer hover:text-black">
+                            <a href="others.html" id="others" class="nav-links">others</a>
+                        </li>
+                    </ul>
+    
+                    <hr class="h-2 ml-5 bg-bllue-500 md:ml-20">
+                </div>
+    
+                <!-- END OF SUB NAVBAR -->
+                <!-- TABLE CONTENT -->
+                <div class="" id="content">
+                    <div class="w-full p-1 mt-5 overflow-auto text-center md:mx-4 font-poppins">
+    
+    
+    
+                        <table class="w-full mx-10 text-center md:w-11/12">
+                            <tr class="h-10 bg-gray-100">
+                                <th class="w-10" colspan="3">basic info</th>
+                                <th class="">employee Code</th>
+                                <th class="">Designation</th>
+                                <th class="">phone number</th>
+                                <th class="">joining date</th>
+                                <th class=""></th>
+                            </tr>
+                            <tr
+                                class="h-16 mb-4 bg-white border-b-8 border-separate border-gray-100 border-spacing-4 drop-shadow-sm hover:drop-shadow-md">
+                                <td class="">0</td>
+                                <td class=""><img src="../public/hello.jpg" class="rounded-[100%] w-8 h-8" alt=""></td>
+                                <td class="">john doe <br> johndoe@gmail.com</td>
+                                <td class="">C547GTY</td>
+                                <td class="">Angular developer</td>
+                                <td class="">+250 78988872</td>
+                                <td class="">mar,20,2023</td>
+                                <td>
+                                    <svg class="w-5 h-5 pt-1 text-gray-800" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 4 15">
+                                        <path
+                                            d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z">
+                                        </path>
+                                    </svg>
+                                </td>
+                            </tr>
+    
+                            <tr
+                                class="h-16 mb-4 bg-white border-b-8 border-separate border-gray-100 border-spacing-4 drop-shadow-sm hover:drop-shadow-md">
+                                <td class="">0</td>
+                                <td class=""><img src="../public/hello.jpg" class="rounded-[100%] w-8 h-8" alt=""></td>
+                                <td class="">john doe <br> johndoe@gmail.com</td>
+                                <td class="">C547GTY</td>
+                                <td class="">Angular developer</td>
+                                <td class="">+250 78988872</td>
+                                <td class="">mar,20,2023</td>
+                                <td>
+                                    <svg class="w-5 h-5 pt-1 text-gray-800" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 4 15">
+                                        <path
+                                            d="M3.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 6.041a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Zm0 5.959a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z">
+                                        </path>
+                                    </svg>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+    
+            </div>
+
+            <script src="./script.js"></script>
+</body>
+
+</html>
